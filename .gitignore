@@ -1,7 +1,8 @@
 +Binaries
 +DerivedDataCache
 +Intermediate
-+Saved
+-Saved
+-WindowsNoEditor
 +*.VC.db
 +*.opensdf
 +*.opendb
