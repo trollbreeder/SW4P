@@ -11,8 +11,11 @@ Or, not, because by the time you're done understanding it I'll be fucking dead. 
 Here's your setup guide:
 
 Step 1: Find a loaded revolver
+
 Step 2: Track down everyone responsible for this mess
+
 Step 3: ???
+
 Step 4: IT'S STILL BROKEN AS FUCK.
 
 One time I changed the menu button color and it broke the collision system. What the fuck.
