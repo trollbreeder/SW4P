@@ -1,0 +1,370 @@
+﻿Log file open, 06/27/17 21:12:41
+LogInit:Display: Running engine for game: SW4P
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1019123966) SRandInit(-1019123966).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.118913
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.28-01.12.42:200][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.28-01.12.42:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.28-01.12.42:214][  0]LogInit: Computer: IDERPPOWERTOWER
+[2017.06.28-01.12.42:214][  0]LogInit: User: iDerp
+[2017.06.28-01.12.42:214][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.28-01.12.42:214][  0]LogInit: High frequency timer resolution =3.215368 MHz
+[2017.06.28-01.12.42:214][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.28-01.12.42:214][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-01.12.42:214][  0]LogMemory: Process Physical Memory: 275.00 MB used, 275.00 MB peak
+[2017.06.28-01.12.42:214][  0]LogMemory: Process Virtual Memory: 267.27 MB used, 267.27 MB peak
+[2017.06.28-01.12.42:214][  0]LogMemory: Physical Memory: 4129.43 MB used,  4019.61 MB free, 8149.05 MB total
+[2017.06.28-01.12.42:214][  0]LogMemory: Virtual Memory: 630.55 MB used,  4019.61 MB free, 134217728.00 MB total
+[2017.06.28-01.12.42:331][  0]LogInit: Using OS detected language (en-US).
+[2017.06.28-01.12.42:331][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.28-01.12.42:336][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.28-01.12.43:372][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.28-01.12.43:418][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.06.28-01.12.43:418][  0]LogD3D11RHI:       2000/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.28-01.12.43:420][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.28-01.12.43:420][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.28-01.12.43:420][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.28-01.12.44:734][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.28-01.12.44:736][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.28-01.12.44:736][  0]LogD3D11RHI:     GPU DeviceId: 0xf02 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.28-01.12.44:736][  0]LogWindows: EnumDisplayDevices:
+[2017.06.28-01.12.44:737][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.06.28-01.12.44:737][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.06.28-01.12.44:737][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.06.28-01.12.44:737][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.06.28-01.12.44:737][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.06.28-01.12.44:737][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.06.28-01.12.44:737][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.28-01.12.44:764][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.28-01.12.44:764][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.28-01.12.44:775][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.28-01.12.44:823][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/iDerp/Documents/GitHub/SW4P/Intermediate/Shaders/WorkingDirectory/9468/).
+[2017.06.28-01.12.44:824][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/iDerp/AppData/Local/Temp/UnrealShaderWorkingDir/F6D395274626FC014B34FDB0E697C6E6/'.
+[2017.06.28-01.12.44:824][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.28-01.12.46:140][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.28-01.12.46:222][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.28-01.12.46:303][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.28-01.12.46:386][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.28-01.12.46:469][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.28-01.12.46:552][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.28-01.12.46:633][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.28-01.12.46:715][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.28-01.12.46:790][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.28-01.12.46:870][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.28-01.12.46:953][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.28-01.12.47:032][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.28-01.12.47:111][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.28-01.12.47:192][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.28-01.12.47:272][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.28-01.12.47:432][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.28-01.12.47:432][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.28-01.12.47:500][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.28-01.12.47:638][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.28-01.12.47:685][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.28-01.12.47:765][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.28-01.12.47:844][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.28-01.12.47:928][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.28-01.12.48:008][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.28-01.12.48:008][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.28-01.12.48:862][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.28-01.12.48:973][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/iDerp/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.28-01.12.48:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/iDerp/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.28-01.12.48:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/iDerp/Documents/GitHub/SW4P/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.28-01.12.48:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.28-01.12.48:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/iDerp/Documents/GitHub/SW4P/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.28-01.12.48:973][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.28-01.12.48:994][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.28-01.12.49:007][  0]LogDerivedDataCache: Using Local data cache path C:/Users/iDerp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.28-01.12.49:019][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.28-01.12.49:019][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.28-01.12.49:020][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.28-01.12.49:020][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.28-01.12.49:438][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.28-01.12.49:522][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.28-01.12.49:754][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.28-01.12.49:829][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.28-01.12.49:915][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.28-01.12.49:915][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.28-01.12.49:915][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.28-01.12.50:646][  0]LogNetVersion: SW4P , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 593072287)
+[2017.06.28-01.12.50:726][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.06.28-01.12.50:815][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.051824 seconds
+[2017.06.28-01.12.50:821][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.28-01.12.50:821][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.28-01.12.50:821][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.28-01.12.50:931][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.28-01.12.54:564][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.28-01.12.54:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.28-01.12.55:504][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.28-01.12.56:164][  0]SourceControl: Info Source control is disabled
+[2017.06.28-01.12.56:164][  0]SourceControl: Info Source control is disabled
+[2017.06.28-01.12.56:249][  0]SourceControl: Info Source control is disabled
+[2017.06.28-01.12.56:334][  0]SourceControl: Info Source control is disabled
+[2017.06.28-01.12.57:549][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.28-01.12.58:585][  0]LogEngine: Initializing Engine...
+[2017.06.28-01.12.58:586][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.28-01.12.58:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.28-01.12.58:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.28-01.12.59:152][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.28-01.12.59:173][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.28-01.12.59:256][  0]LogInit: FAudioDevice initialized.
+[2017.06.28-01.12.59:321][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/iDerp/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.28-01.12.59:349][  0]LogInit: Texture streaming: Enabled
+[2017.06.28-01.12.59:589][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.28-01.13.00:223][  0]LogInit: Transaction tracking system initialized
+[2017.06.28-01.13.00:894][  0]BlueprintLog: New page: Editor Load
+[2017.06.28-01.13.02:487][  0]LocalizationService: Info Localization service is disabled
+[2017.06.28-01.13.03:832][  0]LogConsoleResponse:Display: 
+[2017.06.28-01.13.04:011][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.28-01.13.04:011][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.28-01.13.04:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/GitHub/SW4P/Content/' took 0.02s
+[2017.06.28-01.13.05:813][  0]SourceControl: Info Source control is disabled
+[2017.06.28-01.13.05:813][  0]Cmd: MAP LOAD FILE="../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.28-01.13.05:814][  0]LightingResults: New page: Lighting Build
+[2017.06.28-01.13.05:883][  0]MapCheck: New page: Map Check
+[2017.06.28-01.13.05:883][  0]LightingResults: New page: Lighting Build
+[2017.06.28-01.13.06:512][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.28-01.13.06:525][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.28-01.13.06:540][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.28-01.13.06:627][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.112ms to complete.
+[2017.06.28-01.13.06:627][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.814
+[2017.06.28-01.13.06:682][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.28-01.13.06:787][  0]LogCollectionManager: Loaded 0 collections in 0.002563 seconds
+[2017.06.28-01.13.06:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/GitHub/SW4P/Saved/Collections/' took 0.01s
+[2017.06.28-01.13.06:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/GitHub/SW4P/Content/Developers/iDerp/Collections/' took 0.01s
+[2017.06.28-01.13.06:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/GitHub/SW4P/Content/Collections/' took 0.01s
+[2017.06.28-01.13.06:891][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.28-01.13.06:903][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2329 classes and 491 folders.
+[2017.06.28-01.13.07:010][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.28-01.13.07:080][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.28-01.13.07:152][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.28-01.13.07:209][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.28-01.13.07:214][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.28-01.13.07:217][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.28-01.13.07:222][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.28-01.13.07:335][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.28-01.13.07:598][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.28-01.13.07:598][  0]LogLoad: (Engine Initialization) Total time: 27.94 seconds
+[2017.06.28-01.13.07:598][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
+[2017.06.28-01.13.07:598][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.28-01.13.07:598][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.28-01.13.07:612][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.06.28-01.13.07:691][  0]LogOcInput: OculusInput pre-init called
+[2017.06.28-01.13.07:691][  0]LogHMD: Starting GearVRController plugin
+[2017.06.28-01.13.07:709][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.28-01.13.07:748][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-01.13.07:791][  1]LogAssetRegistry: Asset discovery search completed in 17.0879 seconds
+[2017.06.28-01.13.07:793][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.28-01.13.07:793][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.06.28-01.13.38:990][427]SourceControl: Info On branch Development
+[2017.06.28-01.13.38:990][427]SourceControl: Info Your branch is up-to-date with 'origin/Development'.
+[2017.06.28-01.13.38:990][427]SourceControl: Info Changes not staged for commit:
+[2017.06.28-01.13.38:990][427]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.06.28-01.13.38:990][427]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.28-01.13.38:990][427]SourceControl: Info 	modified:   .gitignore
+[2017.06.28-01.13.38:990][427]SourceControl: Info Untracked files:
+[2017.06.28-01.13.38:990][427]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.28-01.13.38:990][427]SourceControl: Info 	Config/
+[2017.06.28-01.13.38:990][427]SourceControl: Info 	Content/
+[2017.06.28-01.13.38:990][427]SourceControl: Info 	SW4P.uproject
+[2017.06.28-01.13.38:990][427]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.28-01.27.12:418][269]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.28-01.27.28:705][269]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.28-01.27.28:800][269]SourceControl: Info On branch Development
+[2017.06.28-01.27.28:800][269]SourceControl: Info Your branch is up-to-date with 'origin/Development'.
+[2017.06.28-01.27.28:800][269]SourceControl: Info nothing to commit, working tree clean
+[2017.06.28-01.27.28:804][269]SourceControl: Info Commited On branch Development.
+[2017.06.28-01.27.51:061][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.06.28-01.28.01:651][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube8)
+[2017.06.28-01.28.04:143][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2017.06.28-01.28.06:461][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2017.06.28-01.28.17:875][259]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-01.28.18:164][259]LogSavePackage: Save=152.15ms
+[2017.06.28-01.28.18:164][259]LogSavePackage: Moving '../../../../../../Users/iDerp/Documents/GitHub/SW4P/Saved/FirstPersonExampleMap1DBE323A415E49DC1AC16ABFB6C28AC2.tmp' to '../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.28-01.28.18:170][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.28-01.28.18:201][259]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.317
+[2017.06.28-01.28.22:322][494]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.28-01.28.34:695][494]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.28-01.28.34:779][494]SourceControl: Info [Development 0e8df16] Changing up the map a bit
+[2017.06.28-01.28.34:779][494]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.06.28-01.28.34:783][494]SourceControl: Info Commited [Development 0e8df16] Changing up the map a bit.
+[2017.06.28-01.29.42:883][864]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-01.29.43:101][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.28-01.29.43:113][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-01.29.43:224][864]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2017, 5:29:43 PM)
+[2017.06.28-01.29.43:258][864]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.28-01.29.43:422][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163800s)
+[2017.06.28-01.29.43:423][864]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.28-01.29.43:423][864]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2017.06.28-01.29.43:437][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.188919s)
+[2017.06.28-01.29.43:519][864]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.28-01.29.43:532][864]LogInit: FAudioDevice initialized.
+[2017.06.28-01.29.43:623][864]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.28-01.29.43:916][864]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.06.27-21.29.43
+[2017.06.28-01.29.44:010][864]LogWorld: Bringing up level for play took: 0.136444
+[2017.06.28-01.29.44:452][864]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.28-01.29.44:500][864]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.334
+[2017.06.28-01.29.44:500][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.28-01.31.33:501][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.28-01.31.33:596][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.28-01.31.40:021][570]MapCheck: New page: Map Check
+[2017.06.28-01.31.40:173][570]LightingResults: New page: Lighting Build - Jun 27, 2017, 5:31:40 PM
+[2017.06.28-01.31.40:730][570]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.28-01.31.41:141][570]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.28-01.31.41:408][570]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.28-01.31.43:312][570]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.28-01.31.43:312][570]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9468
+[2017.06.28-01.32.04:637][570]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.28-01.32.04:637][570]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.28-01.32.04:637][570]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.28-01.32.04:637][570]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.28-01.32.04:637][570]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.28-01.32.05:162][570]LogEditorBuildUtils: Build time 0:25
+[2017.06.28-01.32.13:131][811]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-01.32.17:861][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.28-01.36.29:569][391]SourceControl: Info On branch Development
+[2017.06.28-01.36.29:569][391]SourceControl: Info Your branch is up-to-date with 'origin/Development'.
+[2017.06.28-01.36.29:569][391]SourceControl: Info nothing to commit, working tree clean
+[2017.06.28-01.39.41:288][615]MapCheck: New page: Map Check
+[2017.06.28-01.39.41:333][615]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.28-01.39.41:333][615]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.28-01.39.41:924][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.28-01.39.42:084][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
+[2017.06.28-01.39.42:091][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.06.28-01.39.42:098][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterialOverride, compiling. 
+[2017.06.28-01.39.42:105][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.06.28-01.39.42:112][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.06.28-01.39.42:119][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
+[2017.06.28-01.39.42:130][615]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.06.28-01.39.43:945][615]TextureStreamingBuild:Display: Compiling optional shaders took 2.029 seconds.
+[2017.06.28-01.39.44:019][615]LogLevel:Display: Export Material TexCoord Scales took 0.074 seconds.
+[2017.06.28-01.39.44:040][615]TextureStreamingBuild:Display: Build Texture Streaming took 0.006 seconds.
+[2017.06.28-01.39.44:049][615]LightingResults: New page: Lighting Build - Jun 27, 2017, 5:39:44 PM
+[2017.06.28-01.39.44:061][615]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.28-01.39.44:063][615]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.28-01.39.44:063][615]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.28-01.39.44:064][615]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.28-01.39.44:064][615]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9468
+[2017.06.28-01.39.44:304][615]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.28-01.39.44:304][615]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.28-01.39.44:304][615]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.28-01.39.44:304][615]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.28-01.39.44:304][615]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.28-01.39.44:322][615]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.28-01.39.44:322][615]MapCheck: New page: FirstPersonExampleMap - Jun 27, 2017, 5:39:44 PM
+[2017.06.28-01.39.44:422][615]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.06.28-01.39.44:515][615]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 192.267ms to complete.
+[2017.06.28-01.39.44:537][615]LogEditorBuildUtils: Build time 0:03
+[2017.06.28-01.39.44:755][615]LogEditorBuildUtils:Warning: Map errors occurred while building.
+
+Attempt to continue the build?
+[2017.06.28-01.39.45:298][615]LogSavePackage: Save=344.21ms
+[2017.06.28-01.39.45:298][615]LogSavePackage: Moving '../../../../../../Users/iDerp/Documents/GitHub/SW4P/Saved/FirstPersonExampleMapCE259FBB4E67CBE6486FE08CA3489F1C.tmp' to '../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.28-01.39.45:308][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.28-01.39.46:473][615]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.28-01.39.46:860][615]LogSavePackage: Save=1358.58ms
+[2017.06.28-01.39.46:860][615]LogSavePackage: Moving '../../../../../../Users/iDerp/Documents/GitHub/SW4P/Saved/FirstPersonExampleMap_BuiltData2A2F8D474F65400540757E9E97553882.tmp' to '../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.06.28-01.39.46:864][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/iDerp/Documents/GitHub/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.28-01.39.47:452][615]SourceControl:Error: Error Nothing specified, nothing added.
+[2017.06.28-01.39.47:452][615]SourceControl:Error: Error Maybe you wanted to say 'git add .'?
+[2017.06.28-01.39.48:601][615]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.28-01.39.48:696][615]SourceControl: Info [Development 978776b] Build Submit
+[2017.06.28-01.39.48:696][615]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.06.28-01.39.48:883][615]BuildAndSubmitErrors: New page: Build and Submit
+[2017.06.28-01.39.48:883][615]BuildAndSubmitErrors:Error: Error Map errors occurred while building.
+[2017.06.28-01.39.48:883][615]BuildAndSubmitErrors:Error: Error Attempt to continue the build?
+[2017.06.28-01.40.08:639][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2017.06.28-01.40.28:105][573]MapCheck: New page: Map Check
+[2017.06.28-01.40.28:117][573]LightingResults: New page: Lighting Build - Jun 27, 2017, 5:40:28 PM
+[2017.06.28-01.40.28:129][573]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.28-01.40.28:130][573]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.28-01.40.28:131][573]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.28-01.40.28:132][573]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.28-01.40.28:132][573]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9468
+[2017.06.28-01.40.28:135][573]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.28-01.40.28:135][573]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.28-01.40.28:135][573]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.28-01.40.28:135][573]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.28-01.40.28:135][573]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.28-01.40.28:170][573]LogEditorBuildUtils: Build time 0:00
+[2017.06.28-01.41.08:037][249]Cmd: MAP CHECK
+[2017.06.28-01.41.08:038][249]MapCheck: New page: FirstPersonExampleMap - Jun 27, 2017, 5:41:08 PM
+[2017.06.28-01.41.08:039][249]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.06.28-01.41.08:130][249]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 92.648ms to complete.
+[2017.06.28-01.41.23:778][ 55]MapCheck: New page: Map Check
+[2017.06.28-01.41.23:794][ 55]LightingResults: New page: Lighting Build - Jun 27, 2017, 5:41:23 PM
+[2017.06.28-01.41.23:807][ 55]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.28-01.41.23:869][ 55]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.28-01.41.23:869][ 55]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.28-01.41.23:870][ 55]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.28-01.41.23:870][ 55]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9468
+[2017.06.28-01.41.23:873][ 55]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.28-01.41.23:873][ 55]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.28-01.41.23:873][ 55]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.28-01.41.23:873][ 55]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.28-01.41.23:873][ 55]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.28-01.41.23:908][ 55]LogEditorBuildUtils: Build time 0:00
+[2017.06.28-01.41.24:857][ 77]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.06.28-01.41.29:411][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.28-01.41.29:419][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AntiAliasedTextMaterialTranslucent, compiling. 
+[2017.06.28-01.41.29:426][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.06.28-01.41.29:433][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterialOverride, compiling. 
+[2017.06.28-01.41.29:440][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.06.28-01.41.29:447][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.06.28-01.41.29:455][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
+[2017.06.28-01.41.29:466][234]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.06.28-01.41.30:571][234]TextureStreamingBuild:Display: Compiling optional shaders took 1.165 seconds.
+[2017.06.28-01.41.30:585][234]LogLevel:Display: Export Material TexCoord Scales took 0.014 seconds.
+[2017.06.28-01.41.30:618][234]TextureStreamingBuild:Display: Build Texture Streaming took 0.033 seconds.
+[2017.06.28-01.41.30:640][235]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.28-01.41.30:640][235]MapCheck: New page: FirstPersonExampleMap - Jun 27, 2017, 5:41:30 PM
+[2017.06.28-01.41.30:640][235]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.06.28-01.41.30:732][235]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 91.958ms to complete.
+[2017.06.28-01.42.28:922][794]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)

@@ -1,0 +1,1256 @@
+﻿Log file open, 06/27/17 19:49:03
+LogInit:Display: Running engine for game: SW4P
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1173166897) SRandInit(-1173166897).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.125880
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.27-23.49.04:232][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-23.49.04:232][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-23.49.04:246][  0]LogInit: Computer: IDERPPOWERTOWER
+[2017.06.27-23.49.04:246][  0]LogInit: User: iDerp
+[2017.06.27-23.49.04:246][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.27-23.49.04:246][  0]LogInit: High frequency timer resolution =3.215350 MHz
+[2017.06.27-23.49.04:246][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.27-23.49.04:247][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-23.49.04:247][  0]LogMemory: Process Physical Memory: 274.03 MB used, 274.03 MB peak
+[2017.06.27-23.49.04:247][  0]LogMemory: Process Virtual Memory: 259.30 MB used, 259.30 MB peak
+[2017.06.27-23.49.04:247][  0]LogMemory: Physical Memory: 5562.92 MB used,  2586.13 MB free, 8149.05 MB total
+[2017.06.27-23.49.04:247][  0]LogMemory: Virtual Memory: 622.55 MB used,  2586.13 MB free, 134217728.00 MB total
+[2017.06.27-23.49.04:380][  0]LogInit: Using OS detected language (en-US).
+[2017.06.27-23.49.04:380][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.27-23.49.04:384][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.27-23.49.05:689][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-23.49.05:744][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.06.27-23.49.05:744][  0]LogD3D11RHI:       2000/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.27-23.49.05:745][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-23.49.05:745][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-23.49.05:745][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-23.49.05:754][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-23.49.06:880][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-23.49.06:880][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-23.49.06:882][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-23.49.06:882][  0]LogD3D11RHI:     GPU DeviceId: 0xf02 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-23.49.06:882][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-23.49.06:882][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.06.27-23.49.06:883][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.06.27-23.49.06:883][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.06.27-23.49.06:883][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.06.27-23.49.06:883][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.06.27-23.49.06:883][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.06.27-23.49.06:883][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-23.49.06:909][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.27-23.49.06:909][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-23.49.06:921][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.27-23.49.06:971][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Intermediate/Shaders/WorkingDirectory/7424/).
+[2017.06.27-23.49.06:971][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/iDerp/AppData/Local/Temp/UnrealShaderWorkingDir/A7AB88FA4A9731B26501D591F9028202/'.
+[2017.06.27-23.49.06:971][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-23.49.08:363][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-23.49.08:451][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-23.49.08:536][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-23.49.08:623][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-23.49.08:711][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-23.49.08:798][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-23.49.08:911][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-23.49.09:024][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-23.49.09:126][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-23.49.09:216][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-23.49.09:305][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-23.49.09:393][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-23.49.09:481][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-23.49.09:569][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-23.49.09:657][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-23.49.09:839][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-23.49.09:839][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-23.49.09:917][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-23.49.10:072][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-23.49.10:127][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-23.49.10:215][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-23.49.10:306][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-23.49.10:398][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-23.49.10:485][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-23.49.10:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-23.49.11:450][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-23.49.11:567][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/iDerp/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-23.49.11:567][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/iDerp/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-23.49.11:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-23.49.11:567][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-23.49.11:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-23.49.11:567][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-23.49.11:587][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-23.49.11:602][  0]LogDerivedDataCache: Using Local data cache path C:/Users/iDerp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-23.49.11:614][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-23.49.11:614][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-23.49.11:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-23.49.11:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-23.49.12:072][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-23.49.12:165][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-23.49.12:417][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-23.49.12:502][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-23.49.12:603][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-23.49.12:603][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-23.49.12:603][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-23.49.13:413][  0]LogNetVersion: SW4P , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 593072287)
+[2017.06.27-23.49.13:503][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.06.27-23.49.13:603][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.057051 seconds
+[2017.06.27-23.49.13:609][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-23.49.13:609][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.27-23.49.13:609][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-23.49.13:728][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-23.49.17:671][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-23.49.17:752][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-23.49.18:687][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-23.49.19:402][  0]SourceControl: Info Source control is disabled
+[2017.06.27-23.49.19:517][  0]SourceControl: Info Source control is disabled
+[2017.06.27-23.49.19:614][  0]SourceControl: Info Source control is disabled
+[2017.06.27-23.49.19:707][  0]SourceControl: Info Source control is disabled
+[2017.06.27-23.49.21:020][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-23.49.22:180][  0]LogEngine: Initializing Engine...
+[2017.06.27-23.49.22:181][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.27-23.49.22:413][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-23.49.22:414][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-23.49.22:649][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-23.49.22:663][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.27-23.49.22:692][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-23.49.22:747][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/iDerp/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-23.49.22:809][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-23.49.22:989][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-23.49.23:443][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-23.49.24:012][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-23.49.25:991][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-23.49.27:360][  0]LogConsoleResponse:Display: 
+[2017.06.27-23.49.27:549][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-23.49.27:549][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.27-23.49.28:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/Unreal Projects/SW4P/Content/' took 0.01s
+[2017.06.27-23.49.29:621][  0]SourceControl: Info Source control is disabled
+[2017.06.27-23.49.29:623][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.06.27-23.49.29:634][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.06.27-23.49.29:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.06.27-23.49.29:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.06.27-23.49.30:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.06.27-23.49.30:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.06.27-23.49.30:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.06.27-23.49.30:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.06.27-23.49.30:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.06.27-23.49.30:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.06.27-23.49.30:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.06.27-23.49.30:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.06.27-23.49.30:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.06.27-23.49.30:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.06.27-23.49.30:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.06.27-23.49.31:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.06.27-23.49.31:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.06.27-23.49.31:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.06.27-23.49.31:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.06.27-23.49.31:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Fire01.uasset"
+[2017.06.27-23.49.32:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.06.27-23.49.32:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.06.27-23.49.32:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.06.27-23.49.33:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Light01.uasset"
+[2017.06.27-23.49.33:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.06.27-23.49.33:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Light02.uasset"
+[2017.06.27-23.49.33:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.06.27-23.49.33:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.06.27-23.49.33:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.06.27-23.49.33:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.06.27-23.49.35:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.06.27-23.49.38:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.06.27-23.49.38:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.06.27-23.49.40:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.06.27-23.49.41:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.06.27-23.49.42:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Steam01.uasset"
+[2017.06.27-23.49.42:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.06.27-23.49.42:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.06.27-23.49.42:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.06.27-23.49.42:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.06.27-23.49.43:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.06.27-23.49.43:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.06.27-23.49.43:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.06.27-23.49.43:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.06.27-23.49.44:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.06.27-23.49.44:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.06.27-23.49.45:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.06.27-23.49.45:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.06.27-23.49.45:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.06.27-23.49.46:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.06.27-23.49.46:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.06.27-23.49.47:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.06.27-23.49.47:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.06.27-23.50.08:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.06.27-23.50.08:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.06.27-23.50.08:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.06.27-23.50.09:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.06.27-23.50.10:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.06.27-23.50.15:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Maps/StarterMap.umap"
+[2017.06.27-23.50.24:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.06.27-23.50.24:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.06.27-23.50.24:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.06.27-23.50.24:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.06.27-23.50.24:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.06.27-23.50.24:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.06.27-23.50.25:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.06.27-23.50.25:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.06.27-23.50.25:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.06.27-23.50.25:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.06.27-23.50.26:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.06.27-23.50.26:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.06.27-23.50.26:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.06.27-23.50.26:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.06.27-23.50.26:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.06.27-23.50.27:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.06.27-23.50.27:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.06.27-23.50.27:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.06.27-23.50.27:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.06.27-23.50.27:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.06.27-23.50.27:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.06.27-23.50.28:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.06.27-23.50.28:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.06.27-23.50.29:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.06.27-23.50.29:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.06.27-23.50.29:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.06.27-23.50.30:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.06.27-23.50.30:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.06.27-23.50.30:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.06.27-23.50.31:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.06.27-23.50.31:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.06.27-23.50.32:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.06.27-23.50.32:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.06.27-23.50.32:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.06.27-23.50.33:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.06.27-23.50.33:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.06.27-23.50.33:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.06.27-23.50.33:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.06.27-23.50.33:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.06.27-23.50.34:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.06.27-23.50.34:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.06.27-23.50.34:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.06.27-23.50.34:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.06.27-23.50.34:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.06.27-23.50.35:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.06.27-23.50.35:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.06.27-23.50.35:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.06.27-23.50.35:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.06.27-23.50.36:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.06.27-23.50.36:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.06.27-23.50.36:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.06.27-23.50.36:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.06.27-23.50.36:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.06.27-23.50.36:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.06.27-23.50.37:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.06.27-23.50.37:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.06.27-23.50.37:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.06.27-23.50.37:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.06.27-23.50.37:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.06.27-23.50.38:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.06.27-23.50.38:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.06.27-23.50.38:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.06.27-23.50.38:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.06.27-23.50.38:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.06.27-23.50.39:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.06.27-23.50.39:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Door.uasset"
+[2017.06.27-23.50.40:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.06.27-23.50.41:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.06.27-23.50.41:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.06.27-23.50.41:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.06.27-23.50.44:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.06.27-23.50.44:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.06.27-23.50.44:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.06.27-23.50.44:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.06.27-23.50.44:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.06.27-23.50.44:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.06.27-23.50.45:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.06.27-23.50.45:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.06.27-23.50.45:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.06.27-23.50.45:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.06.27-23.50.46:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.06.27-23.50.46:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.06.27-23.50.47:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.06.27-23.50.47:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.06.27-23.50.47:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.06.27-23.50.47:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.06.27-23.50.48:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.06.27-23.50.48:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.06.27-23.50.49:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.06.27-23.50.49:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.06.27-23.50.49:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.06.27-23.50.50:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.06.27-23.50.50:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.06.27-23.50.51:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.06.27-23.50.51:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.06.27-23.50.51:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.06.27-23.50.52:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.06.27-23.50.52:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.06.27-23.50.52:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.06.27-23.50.52:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.06.27-23.50.52:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.06.27-23.50.53:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.06.27-23.50.53:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.06.27-23.50.53:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.06.27-23.50.53:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.06.27-23.50.53:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.06.27-23.50.54:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.06.27-23.50.54:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.06.27-23.50.54:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.06.27-23.50.54:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.06.27-23.51.01:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.06.27-23.51.07:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.06.27-23.51.12:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.06.27-23.51.18:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.06.27-23.51.23:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.06.27-23.51.28:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.06.27-23.51.39:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.06.27-23.51.49:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.06.27-23.51.55:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.06.27-23.52.00:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.06.27-23.52.03:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.06.27-23.52.07:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.06.27-23.52.11:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.06.27-23.52.12:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.06.27-23.52.12:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.06.27-23.52.12:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.06.27-23.52.12:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.06.27-23.52.13:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.06.27-23.52.13:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.06.27-23.52.13:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.06.27-23.52.14:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.06.27-23.52.18:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.06.27-23.52.18:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.06.27-23.52.23:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.06.27-23.52.24:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.06.27-23.52.25:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.06.27-23.52.28:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.06.27-23.52.29:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.06.27-23.52.31:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.06.27-23.52.33:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.06.27-23.52.35:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.06.27-23.52.36:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.06.27-23.52.38:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.06.27-23.52.39:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.06.27-23.52.40:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.06.27-23.52.43:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.06.27-23.52.45:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.06.27-23.52.45:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.06.27-23.52.45:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.06.27-23.52.46:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.06.27-23.52.46:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.06.27-23.52.46:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.06.27-23.52.47:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.06.27-23.52.47:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.06.27-23.52.47:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.06.27-23.52.47:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.06.27-23.52.48:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.06.27-23.52.48:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.06.27-23.52.52:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.06.27-23.52.55:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.06.27-23.52.59:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.06.27-23.53.01:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.06.27-23.53.04:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.06.27-23.53.06:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.06.27-23.53.06:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.06.27-23.53.07:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.06.27-23.53.08:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.06.27-23.53.11:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.06.27-23.53.13:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.06.27-23.53.14:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.06.27-23.53.15:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.06.27-23.53.17:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.06.27-23.53.19:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.06.27-23.53.20:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.06.27-23.53.21:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.06.27-23.53.22:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.06.27-23.53.23:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.06.27-23.53.24:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.06.27-23.53.25:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.06.27-23.53.27:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.06.27-23.53.29:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.06.27-23.53.32:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.06.27-23.53.34:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.06.27-23.53.37:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.06.27-23.53.38:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.06.27-23.53.40:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.06.27-23.53.40:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.06.27-23.53.40:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.06.27-23.53.40:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.06.27-23.53.41:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.06.27-23.53.41:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.06.27-23.53.41:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.06.27-23.53.41:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.06.27-23.53.42:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.06.27-23.53.42:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.06.27-23.53.42:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.06.27-23.53.43:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.06.27-23.53.43:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.06.27-23.53.43:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.06.27-23.53.44:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.06.27-23.53.44:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.06.27-23.53.44:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.06.27-23.53.45:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.06.27-23.53.45:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.06.27-23.53.46:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.06.27-23.53.47:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.06.27-23.53.48:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.06.27-23.53.50:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.06.27-23.53.52:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.06.27-23.53.54:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.06.27-23.53.55:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.06.27-23.53.57:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.06.27-23.53.58:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.06.27-23.54.03:869][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.06.27-23.54.07:786][  0]LogSavePackage: Save=521.74ms
+[2017.06.27-23.54.07:786][  0]LogSavePackage: Moving '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Saved/Floor_400x400676CBA0B4BF9C89D1B83EFB944803C7A.tmp' to '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.06.27-23.54.07:966][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.06.27-23.54.07:990][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.06.27-23.54.08:318][  0]Cmd: MAP LOAD FILE="../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-23.54.08:536][  0]LightingResults: New page: Lighting Build
+[2017.06.27-23.54.13:524][  0]MapCheck: New page: Map Check
+[2017.06.27-23.54.13:524][  0]LightingResults: New page: Lighting Build
+[2017.06.27-23.54.27:968][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.06.27-23.54.29:375][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2017.06.27-23.54.30:455][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2017.06.27-23.54.32:582][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2017.06.27-23.54.33:297][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2017.06.27-23.54.33:334][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.06.27-23.54.33:617][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2017.06.27-23.54.33:923][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2017.06.27-23.54.34:505][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2017.06.27-23.54.34:761][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2017.06.27-23.54.34:785][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.06.27-23.54.35:238][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2017.06.27-23.54.35:665][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2017.06.27-23.54.36:387][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2017.06.27-23.54.36:747][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2017.06.27-23.54.36:757][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2017.06.27-23.54.36:837][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2017.06.27-23.54.36:913][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2017.06.27-23.54.36:987][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2017.06.27-23.54.37:065][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2017.06.27-23.54.37:158][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2017.06.27-23.54.37:233][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2017.06.27-23.54.37:304][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2017.06.27-23.54.47:975][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.27-23.55.06:668][  0]LogEditorServer: Finished looking for orphan Actors (0.003 secs)
+[2017.06.27-23.55.07:638][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-23.55.07:909][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 261.429ms to complete.
+[2017.06.27-23.55.07:911][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 59.770
+[2017.06.27-23.55.18:178][  0]LogCollectionManager: Loaded 0 collections in 0.002271 seconds
+[2017.06.27-23.55.20:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/Unreal Projects/SW4P/Saved/Collections/' took 0.01s
+[2017.06.27-23.55.20:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/Unreal Projects/SW4P/Content/Developers/iDerp/Collections/' took 0.01s
+[2017.06.27-23.55.20:100][  0]LogFileCache: Scanning file cache for directory 'C:/Users/iDerp/Documents/Unreal Projects/SW4P/Content/Collections/' took 0.01s
+[2017.06.27-23.55.20:100][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.27-23.55.20:310][  0]LogContentBrowser: Native class hierarchy populated in 0.0761 seconds. Added 2329 classes and 491 folders.
+[2017.06.27-23.55.21:159][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.06.27-23.55.27:147][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.27-23.55.28:157][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.27-23.55.32:641][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-23.55.34:703][  0]LogSlate: Took 0.159599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-23.55.35:048][  0]LogSlate: Took 0.080648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-23.55.35:760][  0]LogSlate: Took 0.170446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-23.55.38:306][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.27-23.55.41:230][  0]LogSlate: Took 0.045140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-23.55.45:266][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.27-23.55.45:266][  0]LogLoad: (Engine Initialization) Total time: 403.74 seconds
+[2017.06.27-23.55.45:266][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.99 seconds
+[2017.06.27-23.55.45:266][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.27-23.55.45:266][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.27-23.55.46:117][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-23.55.46:242][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-23.55.48:681][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-23.55.58:273][  3]LogAssetRegistry: Asset discovery search completed in 404.7917 seconds
+[2017.06.27-23.55.58:366][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.27-23.55.58:366][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.068744 seconds (updated 0 objects)
+[2017.06.27-23.56.02:402][165]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.27-23.56.25:039][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.27-23.56.25:073][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-23.56.25:287][165]PIE: New page: PIE session: FirstPersonExampleMap (Jun 27, 2017, 3:56:25 PM)
+[2017.06.27-23.56.25:355][165]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.27-23.56.25:619][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.263782s)
+[2017.06.27-23.56.25:619][165]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.27-23.56.25:669][165]LogPlayLevel: PIE: World Init took: (0.050574s)
+[2017.06.27-23.56.25:769][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.432049s)
+[2017.06.27-23.56.25:933][165]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.27-23.56.25:946][165]LogInit: FAudioDevice initialized.
+[2017.06.27-23.56.26:180][165]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.27-23.56.26:455][165]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.06.27-19.56.26
+[2017.06.27-23.56.26:674][165]LogWorld: Bringing up level for play took: 0.244875
+[2017.06.27-23.56.27:658][165]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.06.27-23.56.27:871][165]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.705
+[2017.06.27-23.56.27:871][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.27-23.57.02:608][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.27-23.57.02:792][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.27-23.57.14:403][380]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-23.57.15:728][380]LogSavePackage: Save=1243.46ms
+[2017.06.27-23.57.15:728][380]LogSavePackage: Moving '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Saved/FirstPersonExampleMapB3D4221F49F74A8A2E2A55B77F8A30BE.tmp' to '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.27-23.57.15:732][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.27-23.57.16:901][380]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-23.57.17:122][380]LogSavePackage: Save=1231.92ms
+[2017.06.27-23.57.17:122][380]LogSavePackage: Moving '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Saved/FirstPersonExampleMap_BuiltDataEA262FC845EB8C69B09770B5B0866EBB.tmp' to '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.06.27-23.57.17:126][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.27-23.57.30:337][ 78]LogSourceControl:Error: '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/' is not part of a Git repository
+[2017.06.27-23.58.06:290][782]LogSourceControl:Error: '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/' is not part of a Git repository
+[2017.06.27-23.58.12:748][923]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2017.06.27-23.58.12:748][923]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2017.06.28-00.00.38:067][567]SourceControl:Error: Error warning: LF will be replaced by CRLF in .gitignore.
+[2017.06.28-00.00.38:067][567]SourceControl:Error: Error The file will have its original line endings in your working directory.
+[2017.06.28-00.00.40:401][574]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error *** Please tell me who you are.
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error Run
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error   git config --global user.email "you@example.com"
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error   git config --global user.name "Your Name"
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error to set your account's default identity.
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error Omit --global to set the identity only in this repository.
+[2017.06.28-00.00.40:401][574]SourceControl:Error: Error fatal: empty ident name (for <(null)>) not allowed
+[2017.06.28-00.00.46:385][635]SourceControl: Info On branch master
+[2017.06.28-00.00.46:385][635]SourceControl: Info Initial commit
+[2017.06.28-00.00.46:385][635]SourceControl: Info Changes to be committed:
+[2017.06.28-00.00.46:385][635]SourceControl: Info   (use "git rm --cached <file>..." to unstage)
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   .gitignore
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Config/DefaultEditor.ini
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Config/DefaultEditorPerProjectUserSettings.ini
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Config/DefaultEngine.ini
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Config/DefaultGame.ini
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Config/DefaultInput.ini
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Fire.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Idle.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Run.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.06.28-00.00.46:385][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/BaseMaterial.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/CubeMaterialOverride.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/FirstPersonOverview.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/Geometry/Meshes/1M_Cube.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/Geometry/Meshes/TemplateFloor.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x200.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x300.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x400.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_500x500.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse01.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse02.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse_Cue.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion01.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion02.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion_Cue.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire01.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire01_Cue.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light01.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light01_Cue.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light02.uasset
+[2017.06.28-00.00.46:386][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light02_Cue.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Smoke01.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Birds01.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Music01.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Wind05.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Wind06.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Steam01.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Audio/Steam01_Cue.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Maps/Advanced_Lighting.umap
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Maps/Minimal_Default.umap
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Maps/StarterMap.umap
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Maps/StarterMap_BuiltData.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Glass.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2017.06.28-00.00.46:387][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Water_Lake.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Explosion.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Fire.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Smoke.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Sparks.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/MaterialSphere.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Bush.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Chair.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Door.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Frame.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Rock.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Statue.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Bush.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Chair.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_CornerFrame.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Couch.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Door.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_DoorFrame.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_GlassWindow.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_PillarFrame.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Rock.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Shelf.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Stairs.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Statue.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_TableRound.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_WindowFrame.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cone.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cube.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Plane.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Torus.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2017.06.28-00.00.46:388][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Tube.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Burst_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Bush_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Bush_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Chair_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Chair_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Door_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Door_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Frame_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Frame_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Lamp_M.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Lamp_N.uasset
+[2017.06.28-00.00.46:389][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_MacroVariation.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Shelf_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Shelf_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Spark_Core.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Statue_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Statue_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_TableRound_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_TableRound_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Water_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Water_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2017.06.28-00.00.46:390][635]SourceControl: Info 	new file:   SW4P.uproject
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info On branch master
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info Initial commit
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info Changes to be committed:
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info   (use "git rm --cached <file>..." to unstage)
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   .gitignore
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Config/DefaultEditor.ini
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Config/DefaultEditorPerProjectUserSettings.ini
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Config/DefaultEngine.ini
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Config/DefaultGame.ini
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Config/DefaultInput.ini
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Fire.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Idle.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Run.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset
+[2017.06.28-00.02.37:475][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/BaseMaterial.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/CubeMaterialOverride.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/FirstPersonOverview.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/Geometry/Meshes/1M_Cube.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/Geometry/Meshes/TemplateFloor.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x200.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x300.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x400.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_500x500.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse02.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion02.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire01_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light01_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light02.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light02_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Smoke01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Birds01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Music01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Wind05.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Wind06.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Steam01.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Audio/Steam01_Cue.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.06.28-00.02.37:476][ 66]SourceControl: Info 	new file:   Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Maps/Advanced_Lighting.umap
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Maps/Minimal_Default.umap
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Maps/StarterMap.umap
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Maps/StarterMap_BuiltData.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Glass.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Water_Lake.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Explosion.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Fire.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Smoke.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Sparks.uasset
+[2017.06.28-00.02.37:477][ 66]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/MaterialSphere.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Bush.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Chair.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Door.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Frame.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Rock.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Statue.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Bush.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Chair.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_CornerFrame.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Couch.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Door.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_DoorFrame.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_GlassWindow.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_PillarFrame.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Rock.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Shelf.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Stairs.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Statue.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_TableRound.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_WindowFrame.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cone.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cube.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Plane.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Torus.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Tube.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Burst_M.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Bush_D.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Bush_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2017.06.28-00.02.37:478][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Chair_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Chair_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Door_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Door_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Frame_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Frame_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Lamp_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Lamp_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_MacroVariation.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Shelf_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Shelf_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Spark_Core.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Statue_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Statue_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_TableRound_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_TableRound_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2017.06.28-00.02.37:479][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Water_M.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Water_N.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2017.06.28-00.02.37:480][ 66]SourceControl: Info 	new file:   SW4P.uproject
+[2017.06.28-00.02.42:867][438]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.28-00.02.44:987][438]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/SW4P.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.06.28-00.02.46:162][438]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.169 s
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: 
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674]
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/iDerp/Documents/Unreal Projects/SW4P/SW4P.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: Stack: 
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008ACBE1C6
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008AA6B7D2
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008AA81D96
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000008A34E884
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000008C595EC2
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000008C596057
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000006F0D390E
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000006F0903C5
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000006F08F99D
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x000000006F0A4114
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x000000006D480549
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x000000008C59A9AC
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C0F3F1F
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C918AD6
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor.exe!0x0000000001B2E2B2
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor.exe!0x0000000001B1F0B0
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor.exe!0x0000000001B1F12A
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor.exe!0x0000000001B30CF9
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: UE4Editor.exe!0x0000000001B325F7
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: KERNEL32.DLL!0x00000000C8ED8364
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: ntdll.dll!0x00000000C92970D1
+[2017.06.28-00.02.46:162][438]LogOutputDevice:Error: 
+[2017.06.28-00.02.46:172][438]LogStats:                SubmitErrorReport -  0.000 s
